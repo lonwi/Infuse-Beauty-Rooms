@@ -1,0 +1,145 @@
+/* CSS Document */
+
+#treatmentthingy{
+	width:700px;
+	margin:auto;
+}
+
+.welcome{
+	width:70%;
+	min-height:100px;
+	float:left;
+	padding:0 30px 30px;
+	text-align:center;
+	transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+}
+
+.twitter{
+	width:30%;
+	min-height:200px;
+	padding:0 30px 30px;
+	float:right;
+	transition: all 1s ease;
+	 -webkit-transition: all 1s ease;
+}
+
+.testimonials{
+	width:100%;
+	min-height:100px;
+	font-style:italic;
+	padding:30px 30px 0;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+
+.testimonial>blockquote{
+	font-size:18px; 
+	color:#762c72; 
+	font-weight:bold;
+	padding:20px 0 0;
+}
+
+.testimonial>p{
+	padding:20px 0 0;
+}
+
+.content-wrapper{
+	width:100%;
+	min-height:500px;
+	background: #75c044;
+	margin-top:-14px;
+}
+
+.treatments{
+	width:460px;
+	height:200px;
+	margin:30px;
+}
+
+.treatment{
+	margin:20px;
+}
+
+.treatment,
+.treatments{
+	float:left;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+}
+
+.treatment-title-container{
+	position:absolute;
+}
+.treatment-title {
+	position:relative;
+	color:white;
+	left:0;
+	bottom:50px;
+}
+
+.treatment-title h3{
+	text-align:left;
+	padding:10px;
+}
+
+@media screen and (max-width:1040px){
+
+.treatments{
+	width:100%;
+	height:auto;
+	margin:15px 5px;
+}
+
+.treatments img{
+	width:100%;
+	height:auto;
+}
+
+.welcome{
+	width:100%;
+	float:none;
+}
+
+.twitter{
+	display:none;
+	width:100%;
+	float:none;
+	min-height:500px;
+}
+
+.page-title.white:before, 
+.page-title.white:after {
+	display:none;
+}
+	
+}
+@media screen and (max-width:575px){
+.treatment-title h3{
+		font-size:20px;
+}
+}
+
+@media screen and (max-width:768px){
+#treatmentthingy, 
+#footerthingy, 
+.page-title.green2:before, 
+.page-title.green2:after	{
+	display:none;
+}
+
+.twitter{
+	display:none;
+}
+/*
+.testimonials{
+	display:none;
+}*/
+	
+}
+
+@media screen and (max-width:540px){
+.treatments h3{
+	font-size:22px;
+}
+}

@@ -1,0 +1,171 @@
+/* CSS Document */
+
+.newsletter-wrapper{
+	width:100%;
+	min-height: 40px;
+	background: #762c76;
+	color: #f7f7f7;
+	text-align:center;
+    padding: 30px 0;
+	transition: all 1s ease;	
+	-webkit-transition: all 1s ease;
+    margin-top:50px;
+}
+
+.footer-blog{
+    color: #f7f7f7;
+    text-align:left;
+    font-size:14px;
+    border-bottom: 1px solid #515151;
+    padding:5px 5px 20px;
+}
+
+.footer-blog>span{
+    font-size:14px;
+    color: #878787;
+}
+
+
+.newsletter-wrapper input[type="text"], 
+.newsletter-wrapper input[type="email"]{
+	width:30%; 
+	border:none;
+	margin:0; 
+    font-size:14px;
+}
+
+.newsletter-wrapper input[type=submit]{
+	width:10%; 
+	border:none; 
+	margin:0;
+    background: #571a54;
+    color: #fff;
+    font-size:14px;
+}
+
+.footer-wrapper{
+	width:100%;
+	min-height:530px;
+	background:#282828;
+}
+
+.footer-wrapper>footer{
+	width:1040px;
+	margin:auto;
+	color:#f7f7f7;
+	text-align:center;
+	padding:0 0 30px;
+}
+
+.footer-wrapper>footer>.footer-column{
+	width:33.1%;
+	min-height:310px;
+	float:left;
+	padding:30px;
+	transition: all 1s ease;	
+	-webkit-transition: all 1s ease;
+}
+
+.footer-wrapper>footer>.footer-column>.footer-column-title,
+.test-title{
+    font-size:20px;
+    padding:20px 0;
+    font-weight:300;
+    margin-bottom:20px;
+    color: #75c044;
+    border-bottom:1px solid #75c044;
+}
+
+.copyright{
+	width:100%;
+	transition: all 1s ease;	
+	-webkit-transition: all 1s ease;
+}
+
+.footer-blog a:hover,
+.copyright a:hover,
+p a:hover{
+    border-bottom:1px solid #515151;
+}
+
+footer>p{
+	padding:0 0 10px;
+}
+
+table{
+    width:100%;
+    transition: all 1s ease;	
+	-webkit-transition: all 1s ease;
+}
+
+tr, td{
+    width:50%;
+    padding:5px 0;
+
+}
+.left-column{
+    text-align:left;
+}
+.right-column{
+    text-align:right;
+    color: #878787;
+}
+
+@media screen and (max-width: 1100px) {
+
+.footer-wrapper>footer{
+	width:100%;
+}
+
+}
+
+@media screen and (max-width: 1040px) {
+		
+
+.footer-wrapper{
+	padding-top:10px;
+}
+
+.test-title{
+    display:none;
+}
+
+.footer-wrapper>footer>.footer-column{
+	width:100%;
+	float:none;
+	min-height:100px;
+	padding:30px;
+}
+    
+table{
+    width:300px;
+    margin:auto;
+}
+    
+}
+
+@media screen and (max-width:768px){
+
+.newsletter-wrapper input[type="text"], 
+.newsletter-wrapper input[type="email"]{
+	width:90%;
+	float:none; 
+	margin:0 0 5px;
+}
+
+.newsletter-wrapper input[type=submit]{
+	width:100px;
+    padding:5px;
+}	
+	
+.footer-wrapper{
+	margin-top:0;
+	padding:20px;
+}
+}
+
+@media screen and (max-width:500px){
+    table{
+    width:100%;
+}
+}
